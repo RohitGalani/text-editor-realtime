@@ -39,7 +39,7 @@
     "ejs": "^3.1.10",
     "ep_font_size": "^0.4.62",
     "ep_real_time_chat": "^0.2.24",
-    "esbuild": "^0.25.1",
+    "esbuild": "^0.25.3",
     "express": "4.21.2",
     "express-rate-limit": "^7.5.0",
     "fast-deep-equal": "^3.1.3",

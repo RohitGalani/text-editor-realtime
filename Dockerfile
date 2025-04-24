@@ -1,5 +1,5 @@
 # Stage 1: Build UI assets
-FROM node:18-alpine AS adminbuild
+FROM node:23-alpine AS adminbuild
 
 RUN npm install -g pnpm@latest
 WORKDIR /opt/etherpad-lite
@@ -8,7 +8,7 @@ RUN pnpm install
 RUN pnpm run build:ui
 
 # Stage 2: Production image
-FROM node:18-alpine AS production
+FROM node:23-alpine AS production
 
 LABEL maintainer="Etherpad team, https://github.com/ether/etherpad-lite"
 

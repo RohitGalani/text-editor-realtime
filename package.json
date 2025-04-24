@@ -34,7 +34,7 @@
     "makeDocs": "pnpm --filter bin run makeDocs"
   },
   "dependencies": {
-    "ep_align": "^0.3.97",
+    "ep_align": "^0.3.100",
     "ep_comments_page": "^1.0.38",
     "ep_embedded_hyperlinks2": "^1.2.4",
     "ep_etherpad-lite": "workspace:./src",

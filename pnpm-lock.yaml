@@ -33,8 +33,8 @@ importers:
         specifier: ^1.0.1
         version: 1.0.1(ep_headings2@0.2.65)
       ep_real_time_chat:
-        specifier: ^0.2.24
-        version: 0.2.24
+        specifier: ^0.2.25
+        version: 0.2.25
       ep_webrtc:
         specifier: ^2.5.1
         version: 2.5.1
@@ -192,8 +192,8 @@ importers:
         specifier: ^0.4.62
         version: 0.4.62
       ep_real_time_chat:
-        specifier: ^0.2.24
-        version: 0.2.24
+        specifier: ^0.2.25
+        version: 0.2.25
       esbuild:
         specifier: ^0.25.1
         version: 0.25.1
@@ -2990,9 +2990,9 @@ packages:
       ep_headings2:
         optional: true
 
-  ep_real_time_chat@0.2.24:
-    resolution: {integrity: sha512-implgyeqjkMB7tf6pkuPwWyG8Xaw02GHyNiVfGJM5TdUFQs9MBFEsgYGVes73aXC+eDiu7xO4v9eoo9j75uH4w==}
-    engines: {node: '>=18.0.0'}
+  ep_real_time_chat@0.2.25:
+    resolution: {integrity: sha512-4MKCvzhZ837hsU9sNLs/JpZMl8jbl9ucNyzICG6BCib5CbKUHnXl6OzMa8vKdjuekkSDFbvnJuwY9NS6Uo4Iyw==}
+    engines: {node: '>=20.0.0'}
 
   ep_webrtc@2.5.1:
     resolution: {integrity: sha512-KZp2RpXhNFdBrXlZedvKU147TtbkF/BGkw1khDURxy/dfuKfMyAHPbNTIFuDhFXW9CXGc6gsKjWpuyQYpqH7mg==}
@@ -3382,6 +3382,7 @@ packages:
 
   formidable@2.1.2:
     resolution: {integrity: sha512-CM3GuJ57US06mlpQ47YcunuUZ9jpm8Vx+P2CGt2j7HpgkKZO/DJYQ0Bobim8G6PFQmK5lOqOOdUXboU+h73A4g==}
+    deprecated: 'ACTION REQUIRED: SWITCH TO v3 - v1 and v2 are VULNERABLE! v1 is DEPRECATED FOR OVER 2 YEARS! Use formidable@latest or try formidable-mini for fresh projects'
 
   formidable@3.5.2:
     resolution: {integrity: sha512-Jqc1btCy3QzRbJaICGwKcBfGWuLADRerLzDqi2NwSt/UkXLsHJw2TVResiaoBufHVHy9aSgClOHCeJsSsFLTbg==}
@@ -4195,6 +4196,7 @@ packages:
   node-domexception@1.0.0:
     resolution: {integrity: sha512-/jKZoMpw0F8GRwl4/eLROPA3cfcXtLApP0QzLmUT/HuPCZWyB7IY9ZrMeKw2O/nFIqPQB3PVM9aYm0F312AXDQ==}
     engines: {node: '>=10.5.0'}
+    deprecated: Use your platform's native DOMException instead
 
   node-fetch-commonjs@3.3.2:
     resolution: {integrity: sha512-VBlAiynj3VMLrotgwOS3OyECFxas5y7ltLcK4t41lMUZeaK15Ym4QRkqN0EQKAFL42q9i21EPKjzLUPfltR72A==}
@@ -7927,7 +7929,7 @@ snapshots:
     optionalDependencies:
       ep_headings2: 0.2.65
 
-  ep_real_time_chat@0.2.24: {}
+  ep_real_time_chat@0.2.25: {}
 
   ep_webrtc@2.5.1:
     dependencies:

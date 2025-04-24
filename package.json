@@ -41,7 +41,7 @@
     "ep_font_color": "^0.0.88",
     "ep_font_size": "^0.4.62",
     "ep_headings2": "^0.2.65",
-    "ep_markdown": "^1.0.1",
+    "ep_markdown": "^1.0.2",
     "ep_real_time_chat": "^0.2.24",
     "ep_webrtc": "^2.5.1"
   },

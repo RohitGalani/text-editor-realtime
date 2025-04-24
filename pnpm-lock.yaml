@@ -30,8 +30,8 @@ importers:
         specifier: ^0.2.65
         version: 0.2.65
       ep_markdown:
-        specifier: ^1.0.1
-        version: 1.0.1(ep_headings2@0.2.65)
+        specifier: ^1.0.2
+        version: 1.0.2(ep_headings2@0.2.65)
       ep_real_time_chat:
         specifier: ^0.2.24
         version: 0.2.24
@@ -2981,9 +2981,9 @@ packages:
     resolution: {integrity: sha512-Z0SRWq8U8/oFZnPjhaI/mVXV24ZembBSJUezRgm/T0TzHMISfdD8blT9PY39ksLRD0PCx3bbjKkpbFmD10U9Qg==}
     engines: {node: '>=18.0.0'}
 
-  ep_markdown@1.0.1:
-    resolution: {integrity: sha512-vHfv98OxtAJfBSrrw07vl5khu7WQUKs9oSELVMuTBxIqXRQte+XylVPJG/8OhOphY+UQ477ryUujalgO3CVZgw==}
-    engines: {node: '>=18.0.0'}
+  ep_markdown@1.0.2:
+    resolution: {integrity: sha512-lpTFPoBLcMkzQfONb5IVeQY18ufDwmKzhS+eIFJzPkVhmOXqQ7A9DctyC4HRTJB/P9UAKSPmTtP5p3HodCRuFQ==}
+    engines: {node: '>=20.0.0'}
     peerDependencies:
       ep_headings2: '*'
     peerDependenciesMeta:
@@ -3382,6 +3382,7 @@ packages:
 
   formidable@2.1.2:
     resolution: {integrity: sha512-CM3GuJ57US06mlpQ47YcunuUZ9jpm8Vx+P2CGt2j7HpgkKZO/DJYQ0Bobim8G6PFQmK5lOqOOdUXboU+h73A4g==}
+    deprecated: 'ACTION REQUIRED: SWITCH TO v3 - v1 and v2 are VULNERABLE! v1 is DEPRECATED FOR OVER 2 YEARS! Use formidable@latest or try formidable-mini for fresh projects'
 
   formidable@3.5.2:
     resolution: {integrity: sha512-Jqc1btCy3QzRbJaICGwKcBfGWuLADRerLzDqi2NwSt/UkXLsHJw2TVResiaoBufHVHy9aSgClOHCeJsSsFLTbg==}
@@ -4195,6 +4196,7 @@ packages:
   node-domexception@1.0.0:
     resolution: {integrity: sha512-/jKZoMpw0F8GRwl4/eLROPA3cfcXtLApP0QzLmUT/HuPCZWyB7IY9ZrMeKw2O/nFIqPQB3PVM9aYm0F312AXDQ==}
     engines: {node: '>=10.5.0'}
+    deprecated: Use your platform's native DOMException instead
 
   node-fetch-commonjs@3.3.2:
     resolution: {integrity: sha512-VBlAiynj3VMLrotgwOS3OyECFxas5y7ltLcK4t41lMUZeaK15Ym4QRkqN0EQKAFL42q9i21EPKjzLUPfltR72A==}
@@ -7921,7 +7923,7 @@ snapshots:
 
   ep_headings2@0.2.65: {}
 
-  ep_markdown@1.0.1(ep_headings2@0.2.65):
+  ep_markdown@1.0.2(ep_headings2@0.2.65):
     dependencies:
       showdown: 2.1.0
     optionalDependencies:

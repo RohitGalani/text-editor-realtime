@@ -38,7 +38,7 @@
     "cross-spawn": "^7.0.6",
     "ejs": "^3.1.10",
     "ep_font_size": "^0.4.62",
-    "ep_real_time_chat": "^0.2.24",
+    "ep_real_time_chat": "^0.2.25",
     "esbuild": "^0.25.1",
     "express": "4.21.2",
     "express-rate-limit": "^7.5.0",

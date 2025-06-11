@@ -146,8 +146,8 @@ importers:
         specifier: ^4.19.3
         version: 4.19.3
       ueberdb2:
-        specifier: ^5.0.6
-        version: 5.0.6
+        specifier: ^5.0.14
+        version: 5.0.14
     devDependencies:
       '@types/node':
         specifier: ^22.10.2
@@ -300,8 +300,8 @@ importers:
         specifier: 4.19.3
         version: 4.19.3
       ueberdb2:
-        specifier: ^5.0.6
-        version: 5.0.6
+        specifier: ^5.0.14
+        version: 5.0.14
       underscore:
         specifier: 1.13.7
         version: 1.13.7
@@ -3382,6 +3382,7 @@ packages:
 
   formidable@2.1.2:
     resolution: {integrity: sha512-CM3GuJ57US06mlpQ47YcunuUZ9jpm8Vx+P2CGt2j7HpgkKZO/DJYQ0Bobim8G6PFQmK5lOqOOdUXboU+h73A4g==}
+    deprecated: 'ACTION REQUIRED: SWITCH TO v3 - v1 and v2 are VULNERABLE! v1 is DEPRECATED FOR OVER 2 YEARS! Use formidable@latest or try formidable-mini for fresh projects'
 
   formidable@3.5.2:
     resolution: {integrity: sha512-Jqc1btCy3QzRbJaICGwKcBfGWuLADRerLzDqi2NwSt/UkXLsHJw2TVResiaoBufHVHy9aSgClOHCeJsSsFLTbg==}
@@ -4195,6 +4196,7 @@ packages:
   node-domexception@1.0.0:
     resolution: {integrity: sha512-/jKZoMpw0F8GRwl4/eLROPA3cfcXtLApP0QzLmUT/HuPCZWyB7IY9ZrMeKw2O/nFIqPQB3PVM9aYm0F312AXDQ==}
     engines: {node: '>=10.5.0'}
+    deprecated: Use your platform's native DOMException instead
 
   node-fetch-commonjs@3.3.2:
     resolution: {integrity: sha512-VBlAiynj3VMLrotgwOS3OyECFxas5y7ltLcK4t41lMUZeaK15Ym4QRkqN0EQKAFL42q9i21EPKjzLUPfltR72A==}
@@ -5113,8 +5115,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  ueberdb2@5.0.6:
-    resolution: {integrity: sha512-PKJHxQQ+rN8C4t3alzwp61C4aTMoQ+cW5t5DjmzSE6Zg2CPj21P0ALGqJlY+4CaBFOjdYLFBoVWudjK5uT6o4g==}
+  ueberdb2@5.0.14:
+    resolution: {integrity: sha512-WMhRgctxoCQ0Ix5v/Xmpsx73B0n6QP08arbF7wKG6zrI8uF7Gfo1HtYEV+3MTSbzFwfKP3MrrL3JjAMfMo1s2A==}
     engines: {node: '>=16.20.1'}
 
   uid-safe@2.1.5:
@@ -10514,7 +10516,7 @@ snapshots:
 
   typescript@5.7.2: {}
 
-  ueberdb2@5.0.6: {}
+  ueberdb2@5.0.14: {}
 
   uid-safe@2.1.5:
     dependencies:

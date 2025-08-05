@@ -37,7 +37,7 @@
     "cross-env": "^7.0.3",
     "cross-spawn": "^7.0.6",
     "ejs": "^3.1.10",
-    "ep_font_size": "^0.4.62",
+    "ep_font_size": "^0.4.64",
     "ep_real_time_chat": "^0.2.24",
     "esbuild": "^0.25.1",
     "express": "4.21.2",
